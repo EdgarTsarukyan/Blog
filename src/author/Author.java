@@ -10,6 +10,11 @@ public class Author {
     public Author() {
     }
 
+    public Author(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+
     public Author(String name, String surname, String email, int age, String gender) {
         this.name = name;
         this.surname = surname;
