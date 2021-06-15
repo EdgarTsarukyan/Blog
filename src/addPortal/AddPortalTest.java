@@ -37,7 +37,7 @@ public class AddPortalTest {
                     while (isLogin) {
                         System.out.println("Pleas input " + Commands.LOGOUT + " for Logout");
                         System.out.println("Pleas input " + Commands.ADD_NEW_AD + " for ADD_NEW_AD");
-                        //avelcra case_i mej
+
                         System.out.println("Pleas input " + Commands.PRINT_MY_ALL_ADS + " for PRINT MY ALL ADS");
                         System.out.println("Pleas input " + Commands.PRINT_ALL_ADS + " for PRINT_ALL_ADS");
                         System.out.println("Pleas input " + Commands.PRINT_AD_BY_CATEGORY + " for PRINT_AD_BY_CATEGORY");

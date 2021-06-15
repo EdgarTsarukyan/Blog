@@ -8,6 +8,13 @@ import java.util.List;
 
 public class AddStorage {
 
-    List<AD> ad = new ArrayList<>();
+    List<AD> ads = new ArrayList<>();
+
+    public void newAd(AD ad) {
+        for (int i = 0; i < ads.size(); i++) {
+            ads.add(i, ad);
+        }
+
+    }
 
 }

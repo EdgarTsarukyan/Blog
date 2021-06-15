@@ -20,8 +20,10 @@ public class UserStorage {
     public boolean login(String phonNumber, String password){//sxal e.mihst trou e
         if(phonNumber.equals(users.get(phonNumber)) && password.equals(users.get(password))){
             return true;
+        }else {
+            return false;
         }
-       return false;
+
     }
 
     public User getUser(String phonNumber){
